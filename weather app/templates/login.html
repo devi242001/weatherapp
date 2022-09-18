@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../static/login.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text"  name="txt" placeholder="User name" required="">
+					<input type="email" id="useremail" name="signinemail" placeholder="Email" required="">
+					<input type="password" name="pswd" id="signinpassword" placeholder="Password" required="">
+					<a href="/index"><button (click)="" id="signupbtn">Sign up</button></a>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" id="email" name="email" placeholder="Email" required="">
+					<input type="password" id="userpass" name="pswd" placeholder="Password" required="">
+					<a href="/index"><button (click)="">Login</button></a>
+				</form>
+			</div>
+	</div>
+	
+
+</body>
+</html>
